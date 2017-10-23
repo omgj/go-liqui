@@ -3,7 +3,6 @@ package liqui
 
 import (
 	"bytes"
-	"context"
 	"crypto/hmac"
 	"crypto/sha512"
 	"encoding/hex"
@@ -15,6 +14,8 @@ import (
 	"path"
 	"strconv"
 	"time"
+
+	"golang.org/x/net/context"
 )
 
 const (
